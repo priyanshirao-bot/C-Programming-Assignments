@@ -1,13 +1,15 @@
 # C Programming Assignment
 
-This repository contain basic C programming programs.
+This repository contain basic C programming programs completed during my B.Tech coursework.
 
-## Programs Included
--sum of two numbers 
+## Programs Included 
 -Factorial
 -Temperature conversion 
 -Simple Interest
 -Swap Numbers
+
+##Language 
+-c
 
 ##Author
 Priyanshi rao
