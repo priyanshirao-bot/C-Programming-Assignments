@@ -1,0 +1,36 @@
+// #include <stdio.h>
+
+// int main(){
+
+//     int i,n,rem,count=0;
+//     printf("enter value of n");
+//     scanf("%d",&n);
+//     i=n;
+//     while(i>0)                            // while loop
+//     {
+//         rem = i%10;
+//         count++;
+//         i=i/10;
+//     }
+//     printf("number of digits in %d is %d",n,count);
+//      return 0;
+// }
+
+#include <stdio.h>
+
+int main(){
+
+    int i,n,count=0,rem;
+    printf("enter value of n");
+    scanf("%d",&n);
+
+    i=n;
+    do{
+        //rem = i % 10;
+        count++;
+        i=i/10;
+    
+    }while(i>0);
+    printf("number of digits in %d is %d",n,count);
+     return 0;
+}
