@@ -1,0 +1,14 @@
+#include <stdio.h>
+int sum(int x,int y);     // function declaration
+int main(){
+
+     int result;
+    
+     result = sum(20,30);   // function call
+     printf("Sum = %d", result);
+     return 0;
+}
+// function definition
+int sum(int x,int y){
+     return x+y;
+}
