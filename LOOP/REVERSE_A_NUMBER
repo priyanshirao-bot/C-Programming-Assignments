@@ -1,0 +1,55 @@
+// #include <stdio.h>
+
+// int main(){
+     
+//     int i,n,rev=0,rem;
+//     printf("enter value of n");
+//     scanf("%d",&n);
+//     for(i=n; i>0; i=i/10)                         // FOR LOOP
+//     {
+//         rem = i%10;
+//         rev = rev*10+rem;
+//     }
+//     printf("reverse of %d is %d",n,rev);
+
+//      return 0;
+// }
+
+// #include <stdio.h>
+
+// int main(){
+
+//     int i,rem,n,rev=0;
+//     printf("enter value of n");
+//     scanf("%d",&n);
+//     i=n;
+//     do{                                         // do while loop
+//         rem=i%10;
+//         rev=rev*10+rem;
+//         i=i/10;
+//     }while(i>0);
+//     printf("reverse of %d is %d",n,rev);
+//      return 0;
+// }
+
+#include <stdio.h>
+
+int main(){
+   
+    int i,n,rev=0,rem;
+
+    printf("enter value of n:");
+    scanf("%d",&n);
+
+    i=n;
+    while(i>=0)
+    {
+        rem = i%10;
+        rev = rev*10+rem;
+        i=i/10;
+    }
+
+    printf("reverse of %d is %d",n,rev);
+    return 0;
+}
+
