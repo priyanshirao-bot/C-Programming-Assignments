@@ -3,10 +3,12 @@
 This repository contain basic C programming programs completed during my B.Tech coursework.
 
 ## Programs Included 
--Factorial
--Temperature conversion 
--Simple Interest
--Swap Numbers
+-Basic
+-LOOP 
+-Conditional statement
+-Function
+-Array
+-pointers
 
 ##Language 
 -c
