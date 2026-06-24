@@ -1,0 +1,21 @@
+#include <stdio.h>
+int max(int x,int y);// function declaration
+int main(){
+    int a,b,result;     
+    printf("Enter two numbers:");
+    scanf("%d %d", &a, &b);
+     
+    int max(int a,int b);
+    {   // function definition
+    
+    if(a>b){             
+        result = a;
+    }
+    else{
+        result =b;
+    }
+}
+    printf("Maximum = %d", result);   // function call
+
+     return 0;
+}
