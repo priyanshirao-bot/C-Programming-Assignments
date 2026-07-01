@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(){
+   
+    char str[20];
+    printf("enter the value of string:");
+    scanf("%s",&str[0]);
+    printf("strlen of a string is%d ",strlen(str));
+     return 0;
+}
