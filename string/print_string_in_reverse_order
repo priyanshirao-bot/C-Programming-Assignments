@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+
+    char str[10];
+    printf("enter the values of string:");
+    scanf("%s",&str[0]);
+    printf("string in reverse order is:");
+    for(int i=9; i>=0; i--){
+        printf("%c",str[i]);
+        
+    }
+     return 0;
+}
