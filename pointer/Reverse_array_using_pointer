@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+
+    int arr[7];
+    printf("enter 7 values of array:");
+    for(int i=0;i<7;i++){
+        scanf("%d",&arr[i]);
+        }
+    printf("array element after reverse are:\n");
+    for(int i=6;i>=0;i--){
+        printf("%d\n",arr[i]);
+    }
+     return 0;
+}
