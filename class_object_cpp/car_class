@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+class car{
+    private:
+    string name;
+    string model;
+    int price;
+
+    public:
+    void getdata(){
+        cout<<"enter the name of car";
+        cin>>name;
+        cout<<"enter the model of car";
+        cin>>model;
+        cout<<"enter the price of car";
+        cin>>price;
+    }
+    void displaydata(){
+        cout<<"name of car is "<<name<<endl;
+        cout<<"model of car is "<<model<<endl;
+        cout<<"price of car is "<<price<<endl;
+    }
+};
+int main()
+ {
+    car c;
+    c.getdata();
+    c.displaydata();
+return 0;
+ }
