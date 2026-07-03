@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+class bank{
+    
+    private:
+    int account_number;
+    string name;
+    float balance;
+
+    public:
+    void getdata(){
+        cout<<"enter the account number";
+        cin>>account_number;
+        cout<<"enter the name of account holder";
+        cin>>name;
+        cout<<"enter the balance";
+        cin>>balance;
+    }
+    void displaydata(){
+        cout<<"account number is "<<account_number<<endl;
+        cout<<"name of account holder is "<<name<<endl;
+        cout<<"balance is "<<balance<<endl;
+    }
+};
+int main()
+ {
+    bank b;
+    b.getdata();
+    b.displaydata();
+return 0;
+
+
+}
